@@ -10,7 +10,7 @@ export default function Home() {
           System Integration and Architecture in Information Technology
         </h1>
         <p>
-          Hello this is information.
+          Hello this is information. System Integration
         </p>
       </div>
     </div>
