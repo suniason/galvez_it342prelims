@@ -1,5 +1,11 @@
+import { Head } from "next/document";
+
 export default function Home() {
   return (
+    <>
+      <Head>
+        <title>Galvez IT432 Prelims</title>
+      </Head>
     <div className='wrapper' >
       <div className='container'>
         <h1>
@@ -29,5 +35,6 @@ export default function Home() {
         </div>
       </div>
     </div>
+    </>
   )
 }
