@@ -2,6 +2,8 @@
   background:url(../public/background.jpg);
   background-size: cover;
   background-repeat:no-repeat;
+  cursor: default;
+  filter: invert(100);
 }
 
 .wrapper{
@@ -14,12 +16,15 @@
 
 .container{
   color: white;
-  background-color: #00000099;
+  background-color: #00000088;
   width: 95%;
   text-align: center;
   height: fit-content;
+  border-radius: 1rem;
 }
 
-p{
-  font-size: 1.5rem;
+.content{  
+  margin: 2%;
+  text-align: left;
+  font-size: 1.3rem;
 }
